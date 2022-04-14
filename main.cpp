@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-    int arr[15];
+    float arr[15];
     for (int i = 0; i < 15; i++) {
         std::cin >> arr[i];
     }
@@ -11,7 +11,7 @@ int main() {
         std::cout << arr[i] << "  ";
     }
 
-    int temp;
+    float temp;
     for (int i = 0; i < 15; i++) {
         for (int j = 14; j >= i + 1; j--) {
             if (arr[j] < arr[j-1]) {
